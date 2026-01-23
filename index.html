@@ -6,21 +6,83 @@
     <title>My Website</title>
     <!-- CSS -->
     <style>
-        h1, p{
+        /* h1, p{
             text-align: center;
         }
         /* CENTERING AN IMAGE */
-        img{
+        /* img{
             display: block;
             margin-left: auto;
             margin-right: auto;
+        } */ 
+        
+        .header{
+            /* puts name, tile, and nav bar on same line */
+            display: flex;
+            /* vertically aligns name and tile with nav bar */
+            align-items: center;
+            /* puses name and title to the left and nav bar to the right*/
+            justify-content: space-between;
+            background-color: lightpink;
+            
+        }
+        .TLC h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+            font-weight: bold;
+            color: black;
+            display: inline;
+        }
+        .TLC p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: small;
+            color: darkslategray;
+            display: inline;
+            font-weight: bold;
 
         }
+        .navBar ul{
+            /* makes navigation links horizontal */
+            display: flex; 
+            /* puts space between the links */
+            gap: 20px;
+            list-style-type: none;
+            font-size: small;
+        }
+
+        .content h1{
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: darkslategray;
+            text-align: center;
+        }
+        
     </style>
 </head>
 <body>
-    <h1>Wlcome to my Website!</h1>
-    <p>My name is <b><i>Drishya Regmi</i></b>.</p>
-    <img src="75e7c3b8782b1c3c9f16bfda6ff8ea1a.gif" alt="Loading Screen" />
+    
+    <div class="header">
+        <!-- TOP LEFT CORNER -->
+        <div class="TLC">
+            <h1>Drishya Regmi</h1>
+            <p>Computer Science Student</p>
+        </div>
+
+        <!-- NavBar -->
+         <div class="navBar">
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="content">
+        <h1>Home</h1>
+    </div>
+    
+    
 </body>
 </html>
