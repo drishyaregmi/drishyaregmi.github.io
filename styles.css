@@ -8,6 +8,19 @@
             margin-right: auto;
         } */
 
+
+body{
+  margin: 0%;
+  min-height: 130vh;
+  background-image: radial-gradient(
+    circle 65vmin at center,
+    rgb(230, 109, 230), 
+    rgb(93, 93, 212), 
+    rgb(255, 183, 195));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .header {
   /* puts name, tile, and nav bar on same line */
   display: flex;
@@ -15,22 +28,30 @@
   align-items: center;
   /* puses name and title to the left and nav bar to the right*/
   justify-content: space-between;
-  background-color: lightpink;
+  padding: 12px 24px;
+  /* background-color: rgb(155, 13, 143); */
+  background-color: transparent;
+  border-bottom: 0.1px solid white;
 }
+
 .TLC h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: medium;
-  font-weight: bold;
+  font-size: larger;
+  /* font-weight: bolder; */
   color: black;
   display: inline;
+  
 }
+
 .TLC p {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: small;
-  color: darkslategray;
+  font-size: medium;
+  color: white;
   display: inline;
-  font-weight: bold;
+  /* font-weight: bold; */
+  margin-left: 8px;
 }
+
 .navBar ul {
   /* makes navigation links horizontal */
   display: flex;
@@ -40,32 +61,39 @@
   font-size: small;
 }
 
-.content h1 {
-  font-size: large;
+.content h2 {
+  font-size: x-large;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: darkslategray;
+  color: black;
   text-align: center;
+  font-weight: 520;
 }
 
-.content img {
+.content p{
+  margin-left: 10px;
+}
+
+/* .content img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: auto;
   border-radius: 5px;
-}
+  margin-top: auto;
+} */
 
 .navBar a {
   /* removes underline */
   text-decoration: none;
   /* size of butto */
-  padding: 4px 8px;
-  background-color: white;
+  padding: 6px 10px;
+  background-color: transparent;
   color: black;
   border-radius: 4px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .navBar a:hover {
-  background-color: darkgray;
+  background-color: transparent;
+  color: white;
 }
