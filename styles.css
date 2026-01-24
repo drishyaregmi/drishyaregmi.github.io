@@ -18,8 +18,8 @@ body{
   min-height: 130vh;
   background-image: radial-gradient(
     circle 65vmin at center,
-    rgb(230, 109, 230), 
-    rgb(93, 93, 212), 
+    rgb(93, 93, 212),
+    rgb(230, 109, 230),
     rgb(255, 183, 195));
   background-repeat: no-repeat;
   background-attachment: fixed;
