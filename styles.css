@@ -9,6 +9,10 @@
         } */
 
 
+
+
+/* INDEX */
+
 body{
   margin: 0%;
   min-height: 130vh;
@@ -58,19 +62,21 @@ body{
   /* puts space between the links */
   gap: 20px;
   list-style-type: none;
-  font-size: small;
+  font-size: 14px;
 }
 
 .content h2 {
   font-size: x-large;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: black;
+  color: white;
   text-align: center;
   font-weight: 520;
 }
 
 .content p{
-  margin-left: 10px;
+  margin-left: 4%;
+  font-size: larger;
+  
 }
 
 /* .content img {
@@ -97,3 +103,9 @@ body{
   background-color: transparent;
   color: white;
 }
+
+/* ABOUT */
+
+/* PROJECTS */
+
+/* CONTACT */
