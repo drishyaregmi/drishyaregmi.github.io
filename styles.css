@@ -13,7 +13,7 @@ body{
 }
 
 .header {
-  border-bottom: 0.1px solid white;
+  border-bottom: 0.1px solid black;
 }
 
 .header .container{
@@ -88,14 +88,14 @@ body{
 
 .intro h1{
   font-size: 2.8rem;
-  color: white;
+  color: black;
   font-weight: 520;
   margin: 0;
  }
 
  .intro p{
   font-size: 1.4rem;
-  color: white;
+  color: black;
   margin-top: 12px;
  }
 
@@ -118,7 +118,7 @@ footer {
   font-size: 0.85rem;
   text-align: center;
   padding: 12px 0;
-  color: white;
+  color: black;
   }
 
   @media (max-width: 700px){
