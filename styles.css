@@ -75,8 +75,8 @@ body{
 
 .intro{
   display: flex;
-  /* align-items: center; */
-  align-items: flex-start;
+  align-items: center;
+  /* align-items: flex-start; */
   justify-content: space-between;
   font-family: Georgia, 'Times New Roman', Times, serif;
   /* padding-top: 20px; */
