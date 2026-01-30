@@ -79,7 +79,7 @@ body{
   align-items: center;
   justify-content: space-between;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
@@ -137,13 +137,8 @@ section {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2rem;
   color: black;
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 16px;
-}
-
-.section h2:hover {
-  background-color: transparent;
-  color: white;
 }
 
 .grid {
