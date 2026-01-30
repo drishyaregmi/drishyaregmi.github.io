@@ -150,9 +150,6 @@ section h2 {
   color: black;
   margin-top: 0;
   margin-bottom: 16px;
-  text-decoration: none;
-  color: black;
-  background-color: transparent;
 }
 
 .grid {
@@ -170,7 +167,12 @@ section h2 {
   transition: transform 0.2s;
 }
 
-.section h2:hover {
+.section a{
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
+.section a:hover {
   background-color: transparent;
   color: white;
 }
