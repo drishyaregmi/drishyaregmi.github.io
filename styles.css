@@ -2,7 +2,7 @@
 
 body{
   margin: 0%;
-  min-height: 130vh;
+  /* min-height: 130vh; */
   background-image: radial-gradient(
     circle 65vmin at center,
     rgb(93, 93, 212),
@@ -74,9 +74,9 @@ body{
 }
 
 .intro{
-  min-height: auto;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  align-items: flex-start;
   justify-content: space-between;
   font-family: Georgia, 'Times New Roman', Times, serif;
   /* padding-top: 20px; */
@@ -133,8 +133,9 @@ footer {
 
 section:not(#hero) {
   max-width: 1100px;
-  margin: 32px auto 0;
-  padding: 0 24px;
+  margin-top: 32px;
+  /* margin: 32px auto 0;
+  padding: 0 24px; */
 }
 
 section h2 {
