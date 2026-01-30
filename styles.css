@@ -167,12 +167,12 @@ section h2 {
   transition: transform 0.2s;
 }
 
-.section a{
+.projects a{
   text-decoration: none;
   background-color: transparent;
   color: black;
 }
-.section a:hover {
+.projects a:hover {
   background-color: transparent;
   color: white;
 }
