@@ -150,6 +150,9 @@ section h2 {
   color: black;
   margin-top: 0;
   margin-bottom: 16px;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
 }
 
 .grid {
